@@ -1,0 +1,113 @@
+
+body {
+        background-color:black;
+}
+.image1{
+	width:90%;
+	position:absolute;
+	top:0%;
+	left:5%;
+}
+.submit {
+  position:absolute;
+  background-color: #005ce6;
+  border:none;
+  color: white;
+  padding: 12px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position:absolute;
+  left:44%;
+  top:89%;
+  transition: 0.6s ease;
+  box-shadow: -20px,-20px,50px,black,20px,20px,50px,black;
+  border-radius:5px;
+}
+
+.submit:hover {
+  background-color: #fff;
+  color:#1ab2f0 ;
+}
+.nav ul {
+  list-style-type: none;
+  position:absolute;
+  top:34.8%;
+  left:5%;
+  width:90%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+.nav li {
+  float: left;
+}
+.nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 36px;
+  text-decoration: none;
+}
+.nav li a:hover:not(.active) {
+  background-color: #111;
+}
+.active {
+  background-color: #005ce6;
+}
+.details {
+	position:absolute;
+	top:20%;
+	left:12.5%;
+	color:white;
+}
+input[type=submit] {
+	position:absolute;
+  background-color: #005ce6;
+  border:none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position:absolute;
+  left:46%;
+  top:56%;
+  transition: 0.6s ease;
+  box-shadow: -20px,-20px,50px,black,20px,20px,50px,black;
+  border-radius:5px;		
+}
+.box {
+  position:absolute;
+  top: 40%;
+  left: 38%;
+  border: 1px solid #ccc;
+  background: rgba(100,100,100, 0.45);
+  width: 25%;
+  min-height: 140px;
+  box-sizing: border-box;
+  border-radius:20px;
+  text-align: center; 
+}
+.det{
+    position:absolute;
+    left:20%;
+    top:60%;
+    width:25%;
+    height:35%;
+    background-color:rgba(100,100,100,0.6);
+    border:1px solid white;
+    border-radius: 15px;
+    padding-left: 35px;
+  }
+<script type="text/javascript">
+            function IsCorrect(e){
+              var let=/^\(?ANIL)\)?([0-9]{4})$/;
+              if(!e.value.match(let)){
+                alert('please enter Faculty ID as "ANIL****"');
+              }
+          }
+      </script>

@@ -1,0 +1,50 @@
+*{
+	margin:0;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+.info {
+	position:absolute;
+	top:50%;
+	color:#fff;
+	left:15%;
+	font-size:20px;
+	width:80%;
+}
+.leave {
+  position:absolute;
+  background-color: #005ce6;
+  border:none;
+  color: white;
+  padding: 12px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position:absolute;
+  left:44%;
+  top:169%;
+  transition: 0.6s ease;
+  box-shadow: -20px,-20px,50px,black,20px,20px,50px,black;
+  border-radius:5px;
+}
+
+.leave:hover {
+  background-color: #fff;
+  color:#1ab2f0 ;
+}
+.footer {
+	background-color:#0c0c0c;
+	position:absolute;
+	left:5%;
+	width: 90%;
+	height: 10%;
+	top:220%;
+}
+
+.mapouter {
+	position:absolute;
+	top:180%;
+	left:15%;
+}

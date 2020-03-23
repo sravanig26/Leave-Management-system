@@ -1,0 +1,101 @@
+body {
+        background-color: #111111;
+}
+*{
+  margin:0;
+}
+.image1{
+	width:90%;
+	position:absolute;
+	top:0%;
+	left:5%;
+}
+.nav ul {
+  list-style-type: none;
+  position:absolute;
+  top:34.8%;
+  left:5%;
+  width:90%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.nav li {
+  float: left;
+}
+
+.nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 36px;
+  text-decoration: none;
+}
+
+.nav li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #005ce6;
+}
+
+.records {
+	position:absolute;
+	top:30%;
+	left:20%;
+	color:white;
+}
+input[type=submit] {
+	position:absolute;
+  background-color: #005ce6;
+  border:none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position:absolute;
+  left:46%;
+  top:56%;
+  transition: 0.6s ease;
+  box-shadow: -20px,-20px,50px,black,20px,20px,50px,black;
+  border-radius:5px;
+		
+}
+
+.box {
+  position:absolute;
+  top: 45%;
+  left:32%;
+  border: 1px solid #ccc;
+  background: rgba(0, 0, 0, 0.45);
+  width: 35%;
+  height: 140px;
+  box-sizing: border-box;
+  border-radius:20px;
+}
+
+/*.table1 {
+	position:absolute;
+	top:70%;
+	left:40%;
+	width: 35%; 
+	border:1px;
+	padding:2px;
+	border-collapse:collapse;
+	color: white;
+	font-family: monospace;
+	text-align:left;
+}*/
+
+.table{
+	position:absolute;
+	left:31.7%;
+	top:75%;
+	background-color:#fff;
+	
+}
